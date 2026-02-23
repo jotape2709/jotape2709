@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=000814&height=200&section=header&text=JOÃO%20PEDRO&fontSize=70&animation=fadeIn&fontColor=00b4d8" />
+ <img src="https://capsule-render.vercel.app/render?type=soft&color=000814&height=200&section=header&text=JOAO%20PEDRO&fontSize=70&animation=fadeIn&fontColor=00b4d8" />
 
   ### 🛡️ **Information Security Student | Infrastructure & Networks Technician**
   **São Bernardo do Campo & Diadema, SP** 🇧🇷
