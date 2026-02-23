@@ -1,5 +1,4 @@
 
-````md id="redops01"
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=JOAO%20PEDRO&fontSize=70&fontColor=ff1a1a&color=0:000000,100:2b0000&animation=fadeIn&fontAlignY=38"/>
