@@ -1,146 +1,110 @@
 
-```md id="rtm9x2"
+````md id="redops01"
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:000000,100:3a0000&text=JOAO%20PEDRO&fontSize=62&fontColor=ff0033&animation=fadeIn&fontAlignY=38"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=JOAO%20PEDRO&fontSize=70&fontColor=ff1a1a&color=0:000000,100:2b0000&animation=fadeIn&fontAlignY=38"/>
 
-```
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=FF1A1A&center=true&vCenter=true&width=700&lines=Red+Team+Mindset;Infrastructure+%26+Networks;Information+Security+Student;Linux+Driven+Workflow"/>
 
-██████╗ ███████╗██████╗ ████████╗███████╗ █████╗ ███╗   ███╗
-██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
-██████╔╝█████╗  ██████╔╝   ██║   █████╗  ███████║██╔████╔██║
-██╔══██╗██╔══╝  ██╔══██╗   ██║   ██╔══╝  ██╔══██║██║╚██╔╝██║
-██║  ██║███████╗██║  ██║   ██║   ███████╗██║  ██║██║ ╚═╝ ██║
-╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
+<br/>
 
-```
-
-### 💀 Red Team • Infrastructure • Networks • Security Research
-
-<i>"Trust is a vulnerability."</i>
+<i>"Security is an arms race. Curiosity is the weapon."</i>
 
 </div>
 
 ---
 
-## 🧠 Operator Profile
+## 🧠 Operator Identity
 
-• Information Security Student  
-• Infrastructure & Networks Technician  
-• Offensive Security Mindset  
-• Linux-Driven Workflow  
-• Focused on Enumeration, Network Analysis & Systems
-
----
-
-## 🟥 Command Interface
-
-```
-
-root@c2:~# whoami
+```bash
+root@redops:~# whoami
 joao-pedro
 
-root@c2:~# echo $ROLE
-Red Team Operator / Security Researcher
+root@redops:~# role
+Information Security Student
+Infrastructure & Networks Technician
 
-root@c2:~# echo $FOCUS
-networks • infrastructure • attack surface • telemetry
-
-```
+root@redops:~# specialization
+networks • systems • enumeration • analysis
+````
 
 ---
 
-## ⚙️ Operational Stack
+## 🟥 Operational Environment
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/OS-Arch_Linux-000000?style=for-the-badge&logo=arch-linux&logoColor=ff0033"/>
-<img src="https://img.shields.io/badge/WM-Hyprland-000000?style=for-the-badge&logoColor=ff0033"/>
-<img src="https://img.shields.io/badge/Editor-Neovim-000000?style=for-the-badge&logo=neovim&logoColor=ff0033"/>
+<img src="https://img.shields.io/badge/Arch_Linux-000000?style=for-the-badge&logo=arch-linux&logoColor=ff1a1a"/>
+<img src="https://img.shields.io/badge/Hyprland-000000?style=for-the-badge&logoColor=ff1a1a"/>
+<img src="https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim&logoColor=ff1a1a"/>
 
 </div>
 
 ---
 
-## 🛠️ Toolchain
+## 🛠️ Arsenal / Toolchain
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,bash,linux,docker,mysql,git,github,neovim,wireshark,kali"/>
+<img src="https://skillicons.dev/icons?i=python,bash,linux,docker,mysql,git,github,neovim,wireshark,kali&perline=10"/>
 
 </div>
 
 ---
 
-## 📊 Activity Signals
+## 📊 Telemetry & Activity
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=jotape2709&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff0033&icon_color=ff0033"/>
+<img height="190" src="https://github-readme-stats.vercel.app/api?username=jotape2709&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff1a1a&icon_color=ff1a1a"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotape2709&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff0033"/>
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotape2709&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff1a1a"/>
 
 </div>
 
 ---
 
-## 🧬 Operational Domains
+## 🧬 Research & Field Work
 
 <details>
-<summary>🔍 Reconnaissance & Enumeration</summary>
+<summary><b>🔍 SwiftScan-ICMP</b></summary>
 
-• Network mapping  
-• ICMP / TCP analysis  
-• Service fingerprinting  
-• Attack surface observation  
+Reconnaissance & ICMP experimentation toolkit developed in Python.
+Focused on performance, threading behavior, and network visibility.
 
 </details>
 
 <details>
-<summary>🖧 Infrastructure & Systems</summary>
+<summary><b>🖧 HomeLab Infrastructure</b></summary>
 
-• Linux environments  
-• Containerized services  
-• Network segmentation  
-• Self-hosted lab architecture  
-
-</details>
-
-<details>
-<summary>🧪 Research & Experiments</summary>
-
-**SwiftScan-ICMP**  
-Recon & ICMP experimentation toolkit.
-
-**HomeLab Infrastructure**  
-Monitoring, services & controlled testing.
+Self-hosted services, segmentation experiments, monitoring workflows,
+and controlled security observations.
 
 </details>
 
 ---
 
-## 🕶️ SOC vs Red Team
+## 🕶️ SOC vs Red Team Perspective
 
-```
+```text
+[ SOC ]
+Unusual packet patterns observed
+Confidence: uncertain
+Action: monitor & correlate
 
-[ SOC VIEW ]
-Suspicious traffic detected.
-Anomaly score increasing.
-Telemetry incomplete.
-
-[ RED TEAM VIEW ]
-Noise calibrated.
-Detection surface mapped.
-Objective unchanged.
-
+[ RED TEAM ]
+Signal shaping successful
+Detection surface mapped
+Objective: unchanged
 ```
 
 ---
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=jotape2709&color=ff0033&style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=jotape2709&color=ff1a1a"/>
 
 </div>
 ```
+
 
