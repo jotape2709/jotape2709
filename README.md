@@ -72,9 +72,6 @@ Get internship in Information Security (hands-on)
 
 ## 📡 Telemetry & Activity (SEM QUEBRAR)
 
-> Estes cards são gerados via GitHub Actions e ficam salvos no repo.
-> Se ainda não aparecerem, rode o workflow em Actions e aguarde 1–2 min.
-
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
 </p>
