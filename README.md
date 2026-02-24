@@ -83,23 +83,25 @@ Recon • Pentest • Linux • Network Visibility • Automation (Python/Bash)
 
 ### 🗺️ Network Map (High-level)
 
+### 🗺️ Network Map (High-Level)
+
 ```mermaid
 flowchart LR
-  I[Internet] --> R[Router/ISP]
-  R --> FW[Firewall/Gateway<br/>pfSense/OPNsense ou FortiGate (lab)]
-  FW --> SW[Switch / VLAN Trunk]
+  I[Internet] --> R[Router]
+  R --> FW[Firewall Gateway]
+  FW --> SW[Switch VLAN Trunk]
 
-  SW --> V10[VLAN 10 • Workstation/Attacker<br/>Kali/Parrot]
-  SW --> V20[VLAN 20 • Users/Clients<br/>Windows/Linux]
-  SW --> V30[VLAN 30 • Servers/Services<br/>Docker/VMs]
-  SW --> V40[VLAN 40 • AD / Identity<br/>DC + Clients]
-  SW --> V50[VLAN 50 • Monitoring<br/>SIEM/Logs/NIDS]
+  SW --> V10[VLAN 10 Attacker Kali]
+  SW --> V20[VLAN 20 Clients]
+  SW --> V30[VLAN 30 Servers]
+  SW --> V40[VLAN 40 Active Directory]
+  SW --> V50[VLAN 50 Monitoring]
 
-  V50 --> SIEM[SIEM / Log Stack<br/>Wazuh/ELK/Splunk Free]
-  V50 --> NIDS[NIDS<br/>Suricata/Zeek]
-  V30 --> SRV[Services<br/>DNS/Web/Files/DB]
-  V40 --> AD[Domain Controller<br/>AD DS + GPO]
----
+  V30 --> SRV[Services DNS Web Files DB]
+  V40 --> AD[Domain Controller]
+  V50 --> SIEM[SIEM Log Stack]
+  V50 --> NIDS[NIDS Suricata Zeek]
+----
 
 ## 🧠 “Modo recrutador leigo” (explicação simples)
 
