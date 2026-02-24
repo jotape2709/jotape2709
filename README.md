@@ -83,7 +83,7 @@ Recon • Pentest • Linux • Network Visibility • Automation (Python/Bash)
 
 ### 🗺️ Network Map (High-level)
 
-```mermaid
+mermaid
 flowchart LR
   I[Internet] --> R[Router/ISP]
   R --> FW[Firewall/Gateway<br/>pfSense/OPNsense ou FortiGate (lab)]
@@ -99,6 +99,7 @@ flowchart LR
   V50 --> NIDS[NIDS<br/>Suricata/Zeek]
   V30 --> SRV[Services<br/>DNS/Web/Files/DB]
   V40 --> AD[Domain Controller<br/>AD DS + GPO]
+  
 ---
 
 ## 🧠 “Modo recrutador leigo” (explicação simples)
@@ -191,4 +192,3 @@ Internship in Information Security (SOC/SecOps/Network Security/Cloud Security a
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=jotape2709&color=ff1a1a" />
 </p>
-```
