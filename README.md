@@ -86,14 +86,14 @@ Recon • Pentest • Linux • Network Visibility • Automation (Python/Bash)
 ```mermaid
 flowchart LR
   I[Internet] --> R[Router/ISP]
-  R --> FW[Firewall/Gateway<br/>pfSense/OPNsense ou FortiGate (lab)]
+  R --> FW[Firewall/Gateway<br/>pfSense/OPNsense ou FortiGate lab]
   FW --> SW[Switch / VLAN Trunk]
 
-  SW --> V10[VLAN 10 • Workstation/Attacker<br/>Kali/Parrot]
-  SW --> V20[VLAN 20 • Users/Clients<br/>Windows/Linux]
-  SW --> V30[VLAN 30 • Servers/Services<br/>Docker/VMs]
-  SW --> V40[VLAN 40 • AD / Identity<br/>DC + Clients]
-  SW --> V50[VLAN 50 • Monitoring<br/>SIEM/Logs/NIDS]
+  SW --> V10[VLAN 10 - Workstation/Attacker<br/>Kali/Parrot]
+  SW --> V20[VLAN 20 - Users/Clients<br/>Windows/Linux]
+  SW --> V30[VLAN 30 - Servers/Services<br/>Docker/VMs]
+  SW --> V40[VLAN 40 - AD / Identity<br/>DC + Clients]
+  SW --> V50[VLAN 50 - Monitoring<br/>SIEM/Logs/NIDS]
 
   V50 --> SIEM[SIEM / Log Stack<br/>Wazuh/ELK/Splunk Free]
   V50 --> NIDS[NIDS<br/>Suricata/Zeek]
