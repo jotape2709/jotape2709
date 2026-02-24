@@ -1,89 +1,127 @@
+````
+<!-- =========================
+     JOAO PEDRO • REDOPS PROFILE
+     ========================= -->
 
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=0:000000,100:2b0000&height=260&section=header&text=JOAO%20PEDRO&fontSize=70&fontColor=ff1a1a&fontAlignY=38" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=JOAO%20PEDRO&fontSize=70&fontColor=ff1a1a&color=0:000000,100:2b0000&animation=fadeIn&fontAlignY=38"/>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1200&color=FF1A1A&center=true&vCenter=true&width=650&lines=Security+is+an+arms+race.;Curiosity+is+the+weapon.;Red+Team+%E2%80%A2+Pentest+%E2%80%A2+Recon+%E2%80%A2+Linux+%E2%80%A2+Networks" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=FF1A1A&center=true&vCenter=true&width=700&lines=Red+Team+Mindset;Infrastructure+%26+Networks;Information+Security+Student;Linux+Driven+Workflow"/>
+<p align="center">
+  <a href="#pt-br"><b>🇧🇷 PT-BR</b></a>  •
+  <a href="#en"><b>🇺🇸 EN</b></a>  •
+  <a href="https://www.linkedin.com/in/joao2709"><b>LinkedIn</b></a>  •
+  <a href="https://github.com/jotape2709"><b>GitHub</b></a>
+</p>
 
-<br/>
-
-<i>"Security is an arms race. Curiosity is the weapon."</i>
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Arch_Linux-000000?logo=arch-linux&logoColor=ff1a1a&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Debian-000000?logo=debian&logoColor=ff1a1a&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-000000?logo=python&logoColor=ff1a1a&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Bash-000000?logo=gnubash&logoColor=ff1a1a&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Wireshark-000000?logo=wireshark&logoColor=ff1a1a&style=for-the-badge" />
+</p>
 
 ---
 
-## 🧠 Operator Identity
+<a id="pt-br"></a>
+
+## 🟥 Operator Identity (PT-BR)
 
 ```bash
 root@redops:~# whoami
 joao-pedro
 
 root@redops:~# role
-Information Security Student
-Infrastructure & Networks Technician
+Information Security Student • Infrastructure & Networks
 
-root@redops:~# specialization
-networks • systems • enumeration • analysis
+root@redops:~# focus
+Red Team • Pentest • Recon • Linux • Network Visibility
+
+root@redops:~# current_mission
+Get internship in Information Security (hands-on)
 ````
 
 ---
 
-## 🟥 Operational Environment
+## 🧠 “Para recrutadores” (leitura rápida)
 
-<div align="center">
+* **Base forte em redes e infraestrutura** (campo + troubleshooting)
+* **Linux + automação** (Python/Bash) aplicados a diagnóstico e visibilidade de rede
+* **Foco Red Team**, mas com maturidade para **entrar por Security/SOC/SecOps** e migrar internamente
 
-<img src="https://img.shields.io/badge/Arch_Linux-000000?style=for-the-badge&logo=arch-linux&logoColor=ff1a1a"/>
-<img src="https://img.shields.io/badge/Hyprland-000000?style=for-the-badge&logoColor=ff1a1a"/>
-<img src="https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim&logoColor=ff1a1a"/>
-
-</div>
+> 🔎 Quer ver o que eu faço na prática? Vá em **Research & Field Work**.
 
 ---
 
-## 🛠️ Arsenal / Toolchain
+## ⚙️ Arsenal / Toolchain
 
-<div align="center">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,linux,docker,git,github,mysql,neovim&perline=8" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,bash,linux,docker,mysql,git,github,neovim,wireshark,kali&perline=10"/>
-
-</div>
-
----
-
-## 📊 Telemetry & Activity
-
-<div align="center">
-
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=jotape2709&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff1a1a&icon_color=ff1a1a"/>
-
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotape2709&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=ff1a1a"/>
-
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kali&perline=8" />
+</p>
 
 ---
 
-## 🧬 Research & Field Work
+## 📡 Telemetry & Activity (SEM QUEBRAR)
 
-<details>
-<summary><b>🔍 SwiftScan-ICMP</b></summary>
+> Estes cards são gerados via GitHub Actions e ficam salvos no repo.
+> Se ainda não aparecerem, rode o workflow em Actions e aguarde 1–2 min.
 
-Reconnaissance & ICMP experimentation toolkit developed in Python.
-Focused on performance, threading behavior, and network visibility.
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
+</p>
 
-</details>
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
+</p>
 
-<details>
-<summary><b>🖧 HomeLab Infrastructure</b></summary>
-
-Self-hosted services, segmentation experiments, monitoring workflows,
-and controlled security observations.
-
-</details>
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" />
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" />
+</p>
 
 ---
 
-## 🕶️ SOC vs Red Team Perspective
+## 🧪 Research & Field Work
+
+### 🧨 SwiftScan-ICMP (repo: `lab-test`)
+
+Reconnaissance & ICMP experimentation toolkit developed in Python — threading behavior, performance, and network visibility.
+
+➡️ **Repo:** [https://github.com/jotape2709/lab-test](https://github.com/jotape2709/lab-test)
+
+**O que isso demonstra (pra entrevista):**
+
+* redes (CIDR / subnets / discovery)
+* concorrência (threads)
+* engenharia de ferramenta (CLI, output, organização)
+
+### 🧱 HomeLab Infrastructure
+
+Self-hosted services, segmentation experiments, monitoring workflows, and controlled security observations.
+
+> (Se você quiser, eu crio uma seção “HomeLab Map” com diagrama + stack e deixa absurdo de bom.)
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://github.com/jotape2709/jotape2709/blob/output/github-contribution-grid-snake.svg" />
+</p>
+
+---
+
+## 🌓 SOC vs Red Team Perspective
 
 ```text
 [ SOC ]
@@ -99,11 +137,32 @@ Objective: unchanged
 
 ---
 
-<div align="center">
+<a id="en"></a>
 
-<img src="https://komarev.com/ghpvc/?username=jotape2709&color=ff1a1a"/>
+## 🟥 Recruiter-friendly (EN)
 
-</div>
+<details>
+<summary><b>Open English version</b></summary>
+
+### Operator Identity
+
+* Information Security student, strong base in **Networks + Linux**
+* Focus: **Red Team / Pentest / Recon**, with hands-on tooling (Python/Bash)
+
+### Proof of Work
+
+* **SwiftScan-ICMP** (ICMP recon tool, multithreading, CIDR support):
+  [https://github.com/jotape2709/lab-test](https://github.com/jotape2709/lab-test)
+
+### What I’m looking for
+
+* Internship in **Information Security** (SOC/SecOps/Network Security are welcome paths → long-term Red Team)
+
+</details>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=jotape2709&color=ff1a1a" />
+</p>
 ```
-
-
