@@ -83,7 +83,7 @@ Recon • Pentest • Linux • Network Visibility • Automation (Python/Bash)
 
 ### 🗺️ Network Map (High-level)
 
-mermaid
+```mermaid
 flowchart LR
   I[Internet] --> R[Router/ISP]
   R --> FW[Firewall/Gateway<br/>pfSense/OPNsense ou FortiGate (lab)]
@@ -99,8 +99,7 @@ flowchart LR
   V50 --> NIDS[NIDS<br/>Suricata/Zeek]
   V30 --> SRV[Services<br/>DNS/Web/Files/DB]
   V40 --> AD[Domain Controller<br/>AD DS + GPO]
-  
----
+```
 
 ## 🧠 “Modo recrutador leigo” (explicação simples)
 
@@ -124,7 +123,7 @@ Eu já trabalho com infraestrutura de redes e uso isso para estudar segurança n
 
 ---
 
-## 🛰️ Telemetry & Activity (NÃO QUEBRA)
+## 🛰️ Telemetry & Activity 
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
@@ -142,7 +141,7 @@ Eu já trabalho com infraestrutura de redes e uso isso para estudar segurança n
 
 ---
 
-## 🐍 Contribution Snake (ANIMADO)
+## 🐍 Contribution Snake 
 
 <p align="center">
   <img src="https://github.com/jotape2709/jotape2709/blob/output/github-contribution-grid-snake.svg" />
