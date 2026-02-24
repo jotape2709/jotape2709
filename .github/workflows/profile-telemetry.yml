@@ -1,0 +1,36 @@
+name: Profile Telemetry Cards
+
+on:
+  # Executa automaticamente todo dia às 3h da manhã (UTC)
+  schedule:
+    - cron: "0 3 * * *"
+  # Permite executar manualmente pelo botão "Run workflow"
+  workflow_dispatch:
+  # Opcional: executa quando criar tags ou releases
+  create:
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+    name: Generate GitHub Profile Summary Cards
+    permissions:
+      contents: write  # Permissão essencial para commitar os cards
+    
+    steps:
+      # 1. Checkout do repositório
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      # 2. Gerar os cards de telemetria
+      - name: Generate Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # IMPORTANTE: Use um Personal Access Token (PAT), não o GITHUB_TOKEN padrão
+          # O GITHUB_TOKEN padrão tem permissões limitadas e causa erro 401
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: tokyonight
+          BRANCH_NAME: "main"
+          AUTO_PUSH: true
+          UTC_OFFSET: -3  # Ajuste para seu fuso horário (Brasil = -3)
