@@ -53,7 +53,7 @@ Recon • Pentest • Linux • Network Visibility • Automation (Python/Bash)
 
 ---
 
-## 🧨 Portfolio de Segurança (CINEMATIC MODE)
+## 🧨 Portfolio de Segurança
 
 > **Prova prática > certificado**. Aqui está o que eu construo / estudo / documento.
 
