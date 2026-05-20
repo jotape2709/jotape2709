@@ -1,175 +1,100 @@
-
-<!--
-   ██████╗ ███████╗██████╗  ██████╗ ██████╗ ███████╗
-   ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔══██╗██╔════╝
-   ██████╔╝█████╗  ██║  ██║██║   ██║██████╔╝███████╗
-   ██╔══██╗██╔══╝  ██║  ██║██║   ██║██╔═══╝ ╚════██║
-   ██║  ██║███████╗██████╔╝╚██████╔╝██║     ███████║
-   ╚═╝  ╚═╝╚══════╝╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
--->
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0b,50:1b0000,100:ff1a1a&height=290&section=header&text=JO%C3%83O%20PEDRO&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=RED%20TEAM%20%7C%20PENTEST%20%7C%20RECON%20%7C%20LINUX%20%7C%20NETWORKS&descAlignY=58&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a2744,100:2563eb&height=220&section=header&text=João%20Pedro&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Automation%20%7C%20Embedded%20Systems%20%7C%20Security&descAlignY=62&descSize=16"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=1100&color=FF1A1A&center=true&vCenter=true&width=780&lines=Curiosity+is+a+weapon.;Security+is+an+arms+race.;Recon+%E2%86%92+Exploit+%E2%86%92+Post+%E2%86%92+Report.;Learning%2C+building%2C+breaking%2C+documenting." />
-</p>
-
-<p align="center">
-  <a href="#pt-br"><b>🇧🇷 PT-BR</b></a> •
-  <a href="#en"><b>🇺🇸 EN</b></a> •
-  <a href="https://www.linkedin.com/in/joao2709"><b>LinkedIn</b></a> •
-  <a href="https://github.com/jotape2709"><b>GitHub</b></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Red%20Team-0b0b0b?style=for-the-badge&logo=protonvpn&logoColor=ff1a1a" />
-  <img src="https://img.shields.io/badge/Pentest-0b0b0b?style=for-the-badge&logo=hackthebox&logoColor=ff1a1a" />
-  <img src="https://img.shields.io/badge/Linux-0b0b0b?style=for-the-badge&logo=linux&logoColor=ff1a1a" />
-  <img src="https://img.shields.io/badge/Python-0b0b0b?style=for-the-badge&logo=python&logoColor=ff1a1a" />
-  <img src="https://img.shields.io/badge/Networks-0b0b0b?style=for-the-badge&logo=cisco&logoColor=ff1a1a" />
+  <a href="https://www.linkedin.com/in/joao2709">
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=2563eb"/>
+  </a>
+  <a href="mailto:joaopedro7253@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=2563eb"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=jotape2709&color=2563eb&style=for-the-badge&label=VIEWS"/>
 </p>
 
 ---
 
-<a id="pt-br"></a>
+## About
 
-## 🟥 OPERATOR PANEL (PT-BR)
+Infrastructure and networks background, currently focused on automation, embedded systems and information security. I build tools that solve real operational problems — from network scanners running on ESP32 to workflow pipelines that cut manual work by measurable amounts.
 
-```bash
-root@redops:~# whoami
-joao-pedro
-
-root@redops:~# current_role
-Infraestrutura & Redes • Estudante de Segurança da Informação
-
-root@redops:~# objective
-Estágio em Segurança (entrada por SOC/SecOps/NetSec → caminho até Red Team)
-
-root@redops:~# focus
-Recon • Pentest • Linux • Network Visibility • Automation (Python/Bash)
-````
+Studying Information Security at FSA (expected 2027). Former IT & Automation intern at EDASI, currently working in networks and infrastructure at Tecnocomp.
 
 ---
 
-## 🧨 Portfolio de Segurança
-
-> **Prova prática > certificado**. Aqui está o que eu construo / estudo / documento.
-
-### ⚡ SwiftScan-ICMP (Recon Toolkit) 〔repo: `lab-test`〕
-
-**ICMP discovery + threading + CIDR + output** — focado em visibilidade e enumeração em rede.
-
-🔗 [https://github.com/jotape2709/lab-test](https://github.com/jotape2709/lab-test)
-
-**O que isso mostra em entrevista**
-
-* redes: subnets/CIDR/discovery
-* performance: threading/IO
-* engenharia: CLI + organização + output
-
----
-
-### 🧱 Home Lab (Infra + Security)
-
-* segmentação e testes controlados
-* serviços internos e observabilidade
-* aprendizado contínuo (logs, detecção, superfície de ataque)
-
-## 🧱 Home Lab Blueprint (Infra + Security) — “REDOPS RANGE”
-
-> Ambiente controlado para simular redes reais, validar hipóteses e treinar **recon → exploração → detecção → hardening**.
-
-### 🗺️ Network Map (High-level)
-
-```mermaid
-flowchart LR
-  I[Internet] --> R[Router/ISP]
-  R --> FW[Firewall/Gateway<br/>pfSense/OPNsense ou FortiGate lab]
-  FW --> SW[Switch / VLAN Trunk]
-
-  SW --> V10[VLAN 10 - Workstation/Attacker<br/>Kali/Parrot]
-  SW --> V20[VLAN 20 - Users/Clients<br/>Windows/Linux]
-  SW --> V30[VLAN 30 - Servers/Services<br/>Docker/VMs]
-  SW --> V40[VLAN 40 - AD / Identity<br/>DC + Clients]
-  SW --> V50[VLAN 50 - Monitoring<br/>SIEM/Logs/NIDS]
-
-  V50 --> SIEM[SIEM / Log Stack<br/>Wazuh/ELK/Splunk Free]
-  V50 --> NIDS[NIDS<br/>Suricata/Zeek]
-  V30 --> SRV[Services<br/>DNS/Web/Files/DB]
-  V40 --> AD[Domain Controller<br/>AD DS + GPO]
-```
-
-## 🧠 “Modo recrutador leigo” (explicação simples)
-
-<details>
-<summary><b>📌 Clique para abrir</b></summary>
-
-Eu já trabalho com infraestrutura de redes e uso isso para estudar segurança na prática.
-
-**O que eu sei fazer bem:**
-
-* Redes (estrutura física e lógica, troubleshooting)
-* Linux (administração) e automação com Python/Bash
-* Reconhecimento/enumeração (mapeamento de rede, descoberta de hosts)
-
-**O que eu procuro agora:**
-
-* Estágio em Segurança (SOC/SecOps/Segurança de Redes/Cloud Security)
-* Objetivo de longo prazo: Red Team / Pentest
-
-</details>
-
----
-
-## 🐍 Contribution Snake 
-
-<p align="center">
-  <img src="https://github.com/jotape2709/jotape2709/blob/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-## 🧬 Attack/Defense HUD
+## What I actually work with
 
 ```text
-[ Recon ]
-Surface mapped → Signals collected → Hypotheses built
-
-[ Exploit ]
-Controlled execution → Minimal noise → Objective-focused
-
-[ Report ]
-Evidence → Impact → Remediation → Verification
+Languages      Python · C/C++ · SQL · JavaScript · PHP · Java
+Automation     n8n · APIs REST · Shell Script · CI/CD
+Embedded       ESP32 · Arduino · UART · I2C · SPI
+Data           Pandas · Power BI · MySQL · ETL
+Infrastructure TCP/IP · Linux · FTTH/GPON · Fiber Optics
+Security       Network recon · Ethical hacking (study) · Fortinet NSE
+Tools          Git · LLMs integration
 ```
 
 ---
 
-<a id="en"></a>
+## Projects
 
-## 🟥 Recruiter-friendly (EN)
+### SwiftScan-ICMP — Network Recon Toolkit
+`Python` `ICMP` `threading` `CIDR`
 
-<details>
-<summary><b>Open English version</b></summary>
+ICMP host discovery with CIDR range support, threading for performance and structured output. Built for network visibility and enumeration.
 
-### Who I am
+→ [`lab-test`](https://github.com/jotape2709/lab-test)
 
-Infrastructure & Networks background, studying Information Security.
+---
 
-### What I’m aiming for
+### ESP32 Network Monitor
+`C/C++` `TCP/UDP` `ARP` `mDNS` `REST`
 
-Internship in Information Security (SOC/SecOps/Network Security/Cloud Security as entry points → long-term Red Team).
+Port scanning, device fingerprinting and connectivity monitoring on embedded hardware. Sends events and metrics to a backend via REST API.
 
-### Proof of Work
+---
 
-* SwiftScan-ICMP (ICMP recon toolkit, threading, CIDR support):
-  [https://github.com/jotape2709/lab-test](https://github.com/jotape2709/lab-test)
+### Lead Automation Pipeline
+`n8n` `Python` `MySQL` `REST` `WhatsApp API`
 
-</details>
+Automated lead triage workflow integrating Sympla, MySQL and WhatsApp via REST. Reduced manual effort by ~60% in production at EDASI.
+
+---
+
+### ETL & Audit Pipelines
+`Python` `pandas` `MySQL`
+
+Structured data processing, cleaning and loading with integrity validation and audit logging.
+
+---
+
+### AI Workflows
+`n8n` `Python` `LLMs`
+
+Event triage and automated report generation pipelines using language models.
+
+---
+
+## Currently studying
+
+- Pentest fundamentals and offensive security techniques  
+- Red Team methodology (recon → exploit → report)  
+- Cloud Security  
+- Java backend development (Spring Boot, JPA, REST APIs)
+
+---
+
+## Certifications
+
+`Structured Cabling` · `Fortinet NSE` · `Data Cabling System (DCS)`
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jotape2709&color=ff1a1a" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jotape2709&show_icons=true&theme=github_dark&hide_border=true&icon_color=2563eb&title_color=2563eb&text_color=c9d1d9&bg_color=0d1117" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotape2709&layout=compact&theme=github_dark&hide_border=true&title_color=2563eb&text_color=c9d1d9&bg_color=0d1117" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1a2744,100:0d1117&height=100&section=footer"/>
 </p>
