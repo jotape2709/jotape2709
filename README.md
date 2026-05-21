@@ -91,8 +91,8 @@ Event triage and automated report generation pipelines using language models.
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jotape2709&show_icons=true&theme=github_dark&hide_border=true&icon_color=2563eb&title_color=2563eb&text_color=c9d1d9&bg_color=0d1117" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotape2709&layout=compact&theme=github_dark&hide_border=true&title_color=2563eb&text_color=c9d1d9&bg_color=0d1117" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jotape2709&show_icons=true&theme=github_dark&hide_border=true&icon_color=2563eb&title_color=2563eb&text_color=c9d1d9&bg_color=0d1117" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotape2709&layout=compact&theme=github_dark&hide_border=true&title_color=2563eb&text_color=c9d1d9&bg_color=0d1117" height="180"/>
 </p>
 
 <p align="center">
