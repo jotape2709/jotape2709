@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a2744,100:2563eb&height=220&section=header&text=João%20Pedro&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Automation%20%7C%20Embedded%20Systems%20%7C%20Security&descAlignY=62&descSize=16"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a2744,100:2563eb&height=220&section=header&text=João%20Pedro&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Data%20%7C%20Automation%20%7C%20Infrastructure&descAlignY=62&descSize=16"/>
 </p>
 
 <p align="center">
@@ -16,71 +16,93 @@
 
 ## About
 
-Infrastructure and networks background, currently focused on automation, embedded systems and information security. I build tools that solve real operational problems — from network scanners running on ESP32 to workflow pipelines that cut manual work by measurable amounts.
+Data Science and Artificial Intelligence undergraduate at Fundação Santo André (expected 2029), with a technical background in IT, automation, infrastructure and networks. I build data and software projects focused on real operational needs, including data collection, cleaning, validation, scoring, reporting and workflow automation.
 
-Studying Information Security at FSA (expected 2027). Former IT & Automation intern at EDASI, currently working in networks and infrastructure at Tecnocomp.
+At Tecnocomp, I deploy structured network infrastructure for logical points, install switches, perform basic network configurations, test and certify cabling, and take responsibility for technical delivery fronts in large-scale projects.
+
+Previously, as an IT and Automation Intern at EDASI, I developed Python scripts and integrated n8n, MySQL and REST APIs, reducing manual effort in a lead-triage workflow by approximately 60%.
 
 ---
 
-## What I actually work with
+## Technical skills
 
 ```text
-Languages      Python · C/C++ · SQL · JavaScript · PHP · Java
-Automation     n8n · APIs REST · Shell Script · CI/CD
-Embedded       ESP32 · Arduino · UART · I2C · SPI
-Data           Pandas · Power BI · MySQL · ETL
-Infrastructure TCP/IP · Linux · FTTH/GPON · Fiber Optics
-Security       Network recon · Ethical hacking (study) · Fortinet NSE
-Tools          Git · LLMs integration
+Data            Python · pandas · NumPy · SQL · ETL · Data Quality
+Databases       MySQL · SQLite
+BI              Power BI · Excel · Dash/Plotly · Data Storytelling
+Automation      n8n · REST APIs · LLM Integration · Shell Script
+Development     Python · JavaScript · C/C++ · PHP · Java
+Infrastructure  TCP/IP · Structured Cabling · Switches · FTTH/GPON · Linux
+Tools           Git · GitHub · JSON · CSV
 ```
 
 ---
 
-## Projects
+## Featured projects
 
-### SwiftScan-ICMP — Network Recon Toolkit
-`Python` `ICMP` `threading` `CIDR`
+### Automation Leads - Data Collection and Qualification Pipeline
+`Python` `pandas` `Excel` `SQLite` `Google Places API` `LLMs`
 
-ICMP host discovery with CIDR range support, threading for performance and structured output. Built for network visibility and enumeration.
-
-→ [`lab-test`](https://github.com/jotape2709/lab-test)
+Pipeline that collects local business data, removes duplicates, calculates lead scores and priorities, exports structured Excel datasets and consolidates CRM funnel indicators in SQLite.
 
 ---
 
-### ESP32 Network Monitor
-`C/C++` `TCP/UDP` `ARP` `mDNS` `REST`
+### [NetInv - Network Inventory and Structured Reporting](https://github.com/jotape2709/NetInv)
+`Python` `CSV` `JSON` `Multithreading` `CIDR`
 
-Port scanning, device fingerprinting and connectivity monitoring on embedded hardware. Sends events and metrics to a backend via REST API.
-
----
-
-### Lead Automation Pipeline
-`n8n` `Python` `MySQL` `REST` `WhatsApp API`
-
-Automated lead triage workflow integrating Sympla, MySQL and WhatsApp via REST. Reduced manual effort by ~60% in production at EDASI.
+Concurrent network inventory tool that discovers hosts and open ports, validates CIDR ranges and generates structured CSV, JSON and TXT reports for analysis and integration.
 
 ---
 
-### ETL & Audit Pipelines
-`Python` `pandas` `MySQL`
+### [TraceLoc - Data Correlation and Enrichment](https://github.com/jotape2709/TraceLoc)
+`Python` `SQLite` `REST APIs` `C/C++`
 
-Structured data processing, cleaning and loading with integrity validation and audit logging.
+Address and telephone enrichment workflow with data normalization, SQLite caching with TTL, resilient processing fallbacks and structured CSV and JSON outputs.
 
 ---
 
-### AI Workflows
-`n8n` `Python` `LLMs`
+### [Vapt Vupt - Inventory and Quotation Platform](https://github.com/jotape2709/vapt-vupt)
+`JavaScript` `REST API` `Dashboard` `Business Rules`
 
-Event triage and automated report generation pipelines using language models.
+Academic inventory management solution with product monitoring, quotation workflows, operational indicators and a dashboard designed to support purchasing decisions.
+
+---
+
+## Professional experience
+
+**Tecnocomp Tecnologia e Serviços - Infrastructure and Networks Assistant**  
+Feb 2026 - Present
+
+- Deployment of structured infrastructure for logical points in corporate environments.
+- Installation of switches, racks and patch panels, plus basic manual network configurations.
+- Connectivity testing, cabling certification, troubleshooting and technical delivery on large-scale projects.
+
+**Centro de Treinamento EDASI - IT and Automation Intern**  
+Dec 2024 - Apr 2025
+
+- Python scripts for data treatment, auditing and validation.
+- Workflow automation with n8n, MySQL and REST APIs.
+- Approximately 60% reduction in manual effort in lead triage and reporting.
+
+---
+
+## Education
+
+**BSc in Data Science and Artificial Intelligence**  
+Fundação Santo André - Expected 2029
+
+**Technical Degree in Information Technology**  
+Senac São Paulo - 2023 to 2025
 
 ---
 
 ## Currently studying
 
-- Pentest fundamentals and offensive security techniques  
-- Red Team methodology (recon → exploit → report)  
-- Cloud Security  
-- Java backend development (Spring Boot, JPA, REST APIs)
+- Exploratory data analysis and applied statistics
+- SQL, data modeling and ETL pipelines
+- Power BI dashboards and data storytelling
+- Machine learning fundamentals
+- Data engineering and workflow automation
 
 ---
 
