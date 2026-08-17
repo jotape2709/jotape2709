@@ -40,7 +40,7 @@ Tools           Git · GitHub · JSON · CSV
 
 ## Featured projects
 
-### Automation Leads - Data Collection and Qualification Pipeline
+### [Automation Leads - Data Collection and Qualification Pipeline](https://github.com/jotape2709/Automation-leads.git)
 `Python` `pandas` `Excel` `SQLite` `Google Places API` `LLMs`
 
 Pipeline that collects local business data, removes duplicates, calculates lead scores and priorities, exports structured Excel datasets and consolidates CRM funnel indicators in SQLite.
