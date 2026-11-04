@@ -21,7 +21,7 @@ $ whoami
 | | Projeto | O que é |
 |:-:|---|---|
 | **1** | **[jotape.exp](https://jotape-exp.vercel.app)** | Matemática visual: aulas animadas em Manim e Remotion sobre matemática, física e ciência de dados, publicadas no [YouTube](https://www.youtube.com/@jotape-exp) e no [Instagram](https://www.instagram.com/jotape.exp). Também é a marca do meu livro **[Ler antes de calcular](https://ler-antes.vercel.app)**. |
-| **2** | **[JPX Lab](https://www.instagram.com/jpxlabs)** | Meu estúdio freelance: desenvolvimento web, automação, design e dados, além de infraestrutura (cabeamento estruturado, redes e CFTV). |
+| **2** | **[JPX Lab]([https://www.instagram.com/jpxlabs](https://www.instagram.com/jpx.lab/))** | Meu estúdio freelance: desenvolvimento web, automação, design e dados, além de infraestrutura (cabeamento estruturado, redes e CFTV). |
 | **3** | **Dados** | Pipelines de coleta, limpeza, validação e enriquecimento de dados, com relatórios e indicadores. Os projetos estão logo abaixo. |
 | **4** | **Matemática** | A base de tudo. Estatística, probabilidade e modelagem são o que me levou para os dados. Meu lema: *ler antes de calcular*. |
 
